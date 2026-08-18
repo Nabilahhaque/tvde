@@ -66,7 +66,7 @@ const questions = [
     {
         question:
             "Qual é a idade máxima permitida para veículos utilizados no âmbito da TVDE?",
-            image: "images/q1.jpg",
+            image: "q1.jpg",
 
         options: [
             "5 ANOS",
