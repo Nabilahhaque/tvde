@@ -81,58 +81,14 @@ const questions = [
 
     {
         question:
-            "What does RAM stand for?",
+            "A correta pressão dos pneus contribui para uma condução mais económica.",
+             image: "q2.jpg",
 
         options: [
-            "Read Access Memory",
-            "Random Access Memory",
-            "Run Access Memory",
-            "Random Active Memory"
-        ],
-
-        answer: 1
-    },
-
-
-    {
-        question:
-            "Which language is used to style web pages?",
-
-        options: [
-            "HTML",
-            "CSS",
-            "Python",
-            "Java"
-        ],
-
-        answer: 1
-    },
-
-
-    {
-        question:
-            "Which language is used to create web page structure?",
-
-        options: [
-            "CSS",
-            "HTML",
-            "SQL",
-            "C++"
-        ],
-
-        answer: 1
-    },
-
-
-    {
-        question:
-            "Which one is a programming language?",
-
-        options: [
-            "Python",
-            "HTML",
-            "CSS",
-            "HTTP"
+            "Verdadeiro",
+            
+            "Falso",
+            
         ],
 
         answer: 0
@@ -141,13 +97,30 @@ const questions = [
 
     {
         question:
-            "Which device is used to input text into a computer?",
+            "Quando é permitido ultrapassar pela direita?",
+              image: "q3.jpg",
 
         options: [
-            "Monitor",
-            "Printer",
-            "Keyboard",
-            "Speaker"
+            "Quando o veículo da frente circula lentamente.",
+            "Quando o veículo da frente sinaliza que vai virar à esquerda.",
+            "Em qualquer situação",
+            
+        ],
+
+        answer: 1
+    },
+
+
+    {
+        question:
+            "O que deve respeitar em primeiro lugar?",
+             image: "q4.jpg",
+
+        options: [
+            "Os sinais luminosos.",
+            "As marcas rodoviárias.",
+            "As ordens da polícia.",
+            
         ],
 
         answer: 2
@@ -156,62 +129,199 @@ const questions = [
 
     {
         question:
-            "What does HTML stand for?",
+            "A que distância deve colocar o triângulo de pré-sinalização de perigo em caso de avaria?",
+             image: "q5.jpg",
 
         options: [
-            "Hyper Text Markup Language",
-            "High Text Machine Language",
-            "Hyperlink Text Management Language",
-            "Home Tool Markup Language"
+            "Pelo menos 10 metros.",
+            "Pelo menos 50 metros.",
+            "Pelo menos 30 metros.",
+            
         ],
 
-        answer: 0
+        answer: 2
     },
 
 
     {
         question:
-            "Which one is an operating system?",
+            "A velocidade deve ser adequada:",
+             image: "q6.jpg",
 
         options: [
-            "Windows",
-            "Google",
-            "HTML",
-            "Python"
+            "Apenas ao limite máximo permitido.",
+            "Às condições da estrada e do trânsito.",
+            "À vontade do condutor.",
+            
         ],
 
-        answer: 0
+        answer: 1
     },
 
 
     {
         question:
-            "Which storage device uses flash memory?",
+            "Um motorista de TVDE pode conduzir com uma taxa de alcoolemia de 0,2 g/l.",
+            image: "q7.jpg",
+
 
         options: [
-            "SSD",
-            "Keyboard",
-            "Monitor",
-            "Mouse"
+            "Sim, se estiver em boas condições físicas.",
+            "Não.",
+            "Sim, because é um valor permitido.",
+            
         ],
 
-        answer: 0
+        answer: 1
     },
 
 
     {
         question:
-            "Which symbol is commonly used for comments in JavaScript?",
+            "O tempo de espera para passageiros com mobilidade reduzida deve ser:",
+             image: "q7.jpg",
 
         options: [
-            "//",
-            "<!-- -->",
-            "#",
-            "**"
+            "Superior a 30 minutos.",
+            "Superior a 15 minutos.",
+            "Inferior a 15 minutos.",
+            
+        ],
+
+        answer: 2
+    },
+
+
+    {
+        question:
+            "A condução sob a influência do alcool provoca no condutor a diminuição dos reflexos.",
+             image: "q7.jpg",
+
+
+        options: [
+            "Falso",
+            "Verdadeiro",
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+    {
+        question:
+            "Os princípios gerais do socorrismo são:",
+             image: "q7.jpg",
+
+
+        options: [
+            "Prever, ajudar e socorrer.",
+            "Parar, socorrer e alertar.",
+            "Parar, socorrer e alertar.",
+            
+        ],
+
+        answer: 2
+    },
+
+
+     {
+        question:
+            "Um motorista deve comportar-se de forma?",
+             image: "q7.jpg",
+
+
+        options: [
+            "Agressiva.",
+            "Passiva.",
+            "Assertiva.",
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+
+    {
+        question:
+            "Em caso de acidente com o seu veículo, deve:",
+             image: "q7.jpg",
+
+
+        options: [
+            "Sair rapidamente do veículo sem avisar outros condutores.",
+            "Garantir a segurança no local, sinalizar e ligar para o 112.",
+            "Resolver a situação sozinho, sem pedir ajuda.",
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+    {
+        question:
+            "Em caso de queimadura deve:",
+             image: "q7.jpg",
+
+
+        options: [
+            "Lavar a zona afetada com água quente.",
+            "Furar as bolhas existentes.",
+            "Evitar tocar diretamente na área queimada.",
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+
+
+    {
+        question:
+            "O que deve fazer para diminuir as emissões de poluentes?",
+             image: "q7.jpg",
+
+
+        options: [
+            "Conduzir com o motor a altas rotações.",
+            "Fazer a manutenção regular do veículo.",
+            "Andar sempre com o ar condicionado ligado.",
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+
+
+    {
+        question:
+            "Chamamos feedback:",
+             image: "q7.jpg",
+
+
+        options: [
+            "À resposta ou reação da pessoa à mensagem.",
+            "Ao início de uma conversa.",
+            "À forma como utilizamos o tom de voz.",
+            
+            
         ],
 
         answer: 0
-    }
+    },
+
 
 ];
 
