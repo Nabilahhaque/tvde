@@ -2,8 +2,8 @@
    LOGIN
 ========================================== */
 
-const correctUsername = "admin";
-const correctPassword = "12345";
+const correctUsername = "admin/naeem";
+const correctPassword = "semicolon";
 
 
 const loginForm =
