@@ -1222,19 +1222,20 @@ const questions = [
 
     {
      question:
-            "Para sinalizar corretamente o local de um acidente, o motorista deve:",
+            "O processo de comunicação requer, no mínimo:",
              image: "q7.jpg",
 
 
         options: [
-            "Ligar as luzes de perigo, vestir o colete refletor e colocar o triângulo de pré-sinalização de perigo.",
-            " Abandonar o local do acidente.",
+            "Um emissor.",
+            " Um recetor",
+            "Um emissor e um recetor.",
             
             
             
         ],
 
-        answer: 0
+        answer: 2
     },
 
 
