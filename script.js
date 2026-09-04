@@ -95,14 +95,14 @@ const questions = [
     },
      {
      question:
-            "Quando um peão atravessa numa passagem para peões, o motorista deve:",
-             image: "p1.jpg",
+            "Os sinais de proibição indicam:",
+             image: "q1.jpg",
 
 
         options: [
-            "Reduzir a velocidade, mas continuar.",
-            " Acelerar para passar antes do peão.",
-            "Parar e deixar o peão atravessar.",
+            "Informações úteis.",
+              "Obrigações a cumprir.",
+               "Restrições ou limites.",
             
             
         ],
