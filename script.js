@@ -1737,6 +1737,122 @@ const questions = [
 
         answer: 2
     },
+    {
+     question:
+            "Perante este sinal devo:",
+             image: "e1.jpg",
+
+
+        options: [
+            "Avançar em primeiro lugar.",
+            " Ceder a passagem.",
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+     {
+     question:
+            "Pode ultrapassar o veículo que circula à frente?",
+             image: "e2.jpg",
+
+
+        options: [
+            "Sim, a manobra é permitida.",
+            " Não, devo aguardar que o veículo termine a manobra.",
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+
+    {
+     question:
+            "Nesta situação posso ultrapassar o automóvel de cor preta?",
+             image: "e3.jpg",
+
+
+        options: [
+            "Posso pela direita porque a via está livre.",
+            " Não posso.",
+            "Não posso, porque a ultrapassagem faz-se pelo lado esquerdo.",
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+
+    
+    {
+     question:
+            "O sinal de mudança de direção para a esquerda, do veículo que segue à frente, pode indicar:",
+             image: "e4.jpg",
+
+
+        options: [
+            "Diminuição de velocidade.",
+            " Início de manobra de marcha atrás.",
+            "Inicio de uma ultrapassagem.",
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+     
+    {
+     question:
+            "Posso ultrapassar neste local?",
+             image: "e5.jpg",
+
+
+        options: [
+            "Sim, desde que não aumente a velocidade.",
+            " Não.",
+            "Sim, desde que ocupe apenas uma faixa de rodagem.",
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+     
+    {
+     question:
+            "É permitido ultrapassar neste local?",
+             image: "e6.jpg",
+
+
+        options: [
+            "Sim.",
+            " Não.",
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
 
     
 
