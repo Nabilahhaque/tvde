@@ -1888,6 +1888,660 @@ function startPractice() {
 }
 
 
+
+
+
+
+
+
+function startNEW() {
+
+    sessionStorage.setItem(
+        "quizType",
+        "new"
+    );
+
+
+    sessionStorage.setItem(
+        "quizQuestions",
+        JSON.stringify(newquestions)
+    );
+
+
+    window.location.href =
+        "quiz.html";
+}
+
+
+
+
+const newquestions = [
+    {
+     question:
+            "O sinal vertical de forma triangular é utilizado para avisar os condutores:",
+             image: "n1.jpg",
+
+
+        options: [
+            "Da existência de vários perigos.",
+            " De piso escorregadio.",
+            "De elevado volume de trânsito.",
+            "De que a via está obstruida por veículos acidentados.",
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+
+
+    {
+     question:
+            "O que devo fazer nesta situação, atendendo a que circulo numa auto-estrada:",
+             image: "n2.jpg",
+
+
+        options: [
+            "Parar obrigatoriamente para ceder a passagem à ambulância.",
+            " Aumentar a velocidade, porque não é permitido ceder a passagem às ambulâncias.",
+            "Facilitar a entrada da ambulância desde que não ponha em perigo outros utentes",
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+    
+    {
+     question:
+            "Como devo proceder nesta situação?",
+             image: "n3.jpg",
+
+
+        options: [
+            "Aguardar a passagem do outro veículo porque o cruzamento é possível no local em que me encontro.",
+            " Fazer sinais sonoros para que o outro condutor pare.",
+            "Avançar para tentar passar em simultâneo com o outro veículo.",
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+     {
+     question:
+            "O que significa 'manter a distância de segurança?",
+             image: "n4.jpg",
+
+
+        options: [
+            "Garantir a distância mínima entre veículos, de modo a evitar acidentes.",
+            " Estar muito próximo do veículo da frente.",
+            
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+
+
+     {
+     question:
+            "Nesta situação, em qual dos casos se pode considerar que circulo a velocidade excessiva?",
+             image: "n5.jpg",
+
+
+        options: [
+            "Quando atingir uma velocidade próxima dos 90 km/h.",
+            "Quando não conseguir parar o veículo no espaço livre e visível à minha frente. ",
+            "Quando não conseguir avistar a largura da faixa de rodagem ao longo de, pelo menos, 50 metros."
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+     {
+     question:
+            "O sinal circular de fundo azul indica-me a velocidade:",
+             image: "n6.jpg",
+
+
+        options: [
+            "Máxima recomendada.",
+            " Minima obrigatória.",
+            "Máxima permitida.",
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+     {
+     question:
+            "Este sinal indica-me que o desvio que vou encontrar a 250 metros aplica-se:",
+             image: "n7.jpg",
+
+
+        options: [
+            "A todos os automóveis ligeiros.",
+            " Aos veículos pesados com mais de 3,5 toneladas.",
+            "Aos veículos de mercadorias com mais de 12 toneladas.",
+            "Aos veículos com altura superior a 3,5 metros."
+            
+            
+            
+            
+        ],
+
+        answer: 3
+    },
+
+
+
+     {
+     question:
+            "Pretendo ultrapassar o veículo que segue à minha frente. Devo:",
+             image: "n8.jpg",
+
+
+        options: [
+            "Aumentar a velocidade e realizar a manobra de imediato.",
+            "Aguardar que o condutor da frente realize a manobra.",
+            "Utilizar os sinais sonoros, para advertir o condutor da frente.",           
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+
+
+     {
+     question:
+            "O sinal que se encontra na via indica-me:",
+             image: "n9.jpg",
+
+
+        options: [
+            "Proximidade de uma curva perigosa à esquerda.",
+            "Entroncamento com via sem prioridade. ",
+            "Entroncamento com via com prioridade.",
+            "Que o trânsito se faz apenas num sentido."
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+
+
+
+
+     {
+     question:
+            "Face ao perigo anunciado pelo sinal vertical, no local em que me encontro devo circular:",
+             image: "n10.jpg",
+
+
+        options: [
+            "Junto ao eixo da faixa de rodagem.",
+            " Utilizando as luzes de perigo.",
+            "A velocidade especialmente moderada.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+
+
+     {
+     question:
+            "O automóvel branco que circula em sentido contrário ao meu segue em frente. Qual é a ordem de passagem no entroncamento?",
+             image: "n11.jpg",
+
+
+        options: [
+            "O meu, o da direita e o branco.",
+            " da direita, o automóvel branco e o meu. ",
+            "o automóvel branco, o da direita e o meu."
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "Quando deve avançar o veículo verde, sabendo que se encontra perante o sinal de STOP?",
+             image: "n12.jpg",
+
+
+        options: [
+            "Em primeiro lugar se pretende mudar de direcção à esquerda.",
+            "Simultaneamente com o meu veículo, porque ambos seguimos em frente. ",
+            "Em último lugar."
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "Qual deve ser o comportamento do veículo que está a ser ultrapassado?",
+             image: "n13.jpg",
+
+
+        options: [
+            "Parar.",
+            "Manter a velocidade. ",
+            "Diminuir a velocidade.",
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+     {
+     question:
+            "Qual deve ser o último condutor a passar?",
+             image: "n14.jpg",
+
+
+        options: [
+            "o que está à minha frente.",
+            "o do veículo de tracção animal. ",
+            "O da esquerda.",
+            "Eu",
+            
+            
+
+            
+        ],
+
+        answer: 3
+    },
+
+     {
+     question:
+            "O sinal vertical indica aos condutores a proximidade de um troço de via:",
+             image: "n15.jpg",
+
+
+        options: [
+            "Com descida perigosa em que existe o risco de despiste.",
+            "Em que o pavimento pode tornar-se escorregadio. ",
+            "Onde a circulação se encontra obstruída por veículos."
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+     {
+     question:
+            "Devo ter especial atenção para regular a velocidade a que circulo no que se refere:",
+             image: "n16.jpg",
+
+
+        options: [
+            "À largura da via e a distância que me separa dos veículos à minha retaguarda.",
+            "À cilindrada do veículo que conduzo. ",
+            "À intensidade do trânsito e às caracteristicas da via.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+     {
+     question:
+            "Na realização da manobra de ultrapassagem a um velocípede o condutor:",
+             image: "n17.jpg",
+
+
+        options: [
+            "Deve guardar uma distância lateral mínima de 1,5 m e abrandar a velocidade.",
+            "Não necessita de ter qualquer precaução. ",
+            "Deve guardar uma distância lateral minima de 2,5 metros.",
+            
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+     {
+     question:
+            "Nesta situação o condutor do veículo ultrapassado:",
+             image: "n18.jpg",
+
+
+        options: [
+            "Deve reduzir a velocidade.",
+            "Deve utilizar os sinais sonoros. ",
+            "Não deve aumentar a velocidade.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "Em caso de acidente com a sua viatura, qual o procedimento que não deve ser adotado:",
+             image: "n4.jpg",
+
+
+        options: [
+            "Manter a calma",
+            " Avaliar a segurança do local",
+            "Efetuar uma rápida avaliação da vitima",
+            "Abandonar o local",
+            
+            
+            
+        ],
+
+        answer: 3
+    },
+
+     {
+     question:
+            "Perante este sinal que precauções devo tomar?",
+             image: "n19.jpg",
+
+
+        options: [
+            "Parar imediatamente.",
+            " Avançar rapidamente.",
+            "Reduzir a velocidade."
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "O que deve fazer em condições de nevoeiro?",
+             image: "n4.jpg",
+
+
+        options: [
+            "Usar as luzes de nevoeiro e ajustar a velocidade.",
+            " Aumentar a velocidade para sair da área com nevoeiro.",
+            "Manter as luzes desligadas para economizar energia."
+            
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+     {
+     question:
+            "O que me deve levar a moderar a velocidade no local em que circulo?",
+             image: "n20.jpg",
+
+
+        options: [
+            "A diversidade de utentes de grande vulnerabilidade.",
+            " O traçado e características da via.",
+            "A possibilidade de ocorréncia de condições atmosféricas adversas.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "O que deve fazer para diminuir as emissões de poluentes?",
+             image: "n4.jpg",
+
+
+        options: [
+            "Conduzir com o motor a altas rotações.",
+            "Fazer a manutenção regular do veículo. ",
+            "Andar sempre com o ar condicionado ligado.",
+            
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+     {
+     question:
+            "Para circular com segurança, neste local devo:",
+             image: "n21.jpg",
+
+
+        options: [
+            "Parar antes da curva.",
+            "Aproximar o veículo do eixo da faixa de rodagem, moderando a velocidade. ",
+            "Adequar a velocidade às características da via.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+     {
+     question:
+            "Um motorista tem um comportamento profissional quando:",
+             image: "n4.jpg",
+
+
+        options: [
+            "É apressado e impaciente durante a condução.",
+            " Ignora os pedidos dos passageiros.",
+            "É educado, respeita os passageiros e atende às suas necessidades.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+
+     {
+     question:
+            "Este sinal indica-me que o desvio que vou encontrar a 250 metros aplica-se:",
+             image: "n4.jpg",
+
+
+        options: [
+            "A todos os automóveis ligeiros.",
+            "Aos veiculos pesados com mais de 3,5 toneladas. ",
+            "Aos veículos de mercadorias com mais de 12 toneladas.",
+            "Aos veiculos com altura superior a 3,5 metros.",
+            
+            
+            
+            
+        ],
+
+        answer: 3
+    },
+
+
+     {
+     question:
+            "Como devo proceder perante o sinal de obrigação?",
+             image: "n23.jpg",
+
+
+        options: [
+            "Ceder a passagem aos veículos da direita.",
+            " Contornar a placa ou obstáculo pelo lado indicado pela seta.",
+            "Circular junto ao eixo da faixa de rodagem.",
+            
+            
+            
+        ],
+
+        answer: 1
+    },
+
+
+     {
+     question:
+            "Nesta situação, qual o motivo que deve levar o motociclista a moderar a velocidade?",
+             image: "n24.jpg",
+
+
+        options: [
+            "o traçado e características da via.",
+            "As condições atmosféricas. ",
+            "As deficientes condições de aderência do pavimento.",
+            
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+
+     {
+     question:
+            "O sinal de perigo alerta-me para a possibilidade de encontrar:",
+             image: "n25.jpg",
+
+
+        options: [
+            "Uma escola.",
+            " Pista obrigatória para peões.",
+            "Peões a atravessar a faixa de rodagem.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+    
+     {
+     question:
+            "Qual deve ser a ordem de passagem nesta situação?",
+             image: "n26.jpg",
+
+
+        options: [
+            "O meu veículo e o automóvel ligeiro em simultaneo, seguidos do motociclo e do velocipede em simultaneo.",
+            " O meu veículo em primeiro lugar seguido do motociclo e em último lugar o automóvel ligeiro.",
+            "O velocipede e o automóvel ligeiro em simultaneo, seguidos do motociclo e do meu veiculo em simultâneo."
+            
+            
+            
+            
+        ],
+
+        answer: 0
+    },
+
+    
+     {
+     question:
+            "Perante este sinal, podem realizar a manobra de ultrapassagem:",
+             image: "n4.jpg",
+
+
+        options: [
+            "Os motociclos.",
+            "Só os automóveis pesados. ",
+            "Todos os veículos, excepto os motociclos e ciclomotores.",
+            
+            
+            
+            
+        ],
+
+        answer: 2
+    },
+
+    
+
+
+
+
+]
+
+
+
 /* ==========================================
    MOCK TEST
 ========================================== */
